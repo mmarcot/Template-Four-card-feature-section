@@ -1,45 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Four card feature section</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+	<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" href="vendor/css/bootstrap.min.css">
+	<link rel="stylesheet" href="style.css">
+	<title>EXO</title>
 </head>
 <body>
-  
-  Reliable, efficient delivery
-  Powered by Technology
+	<div class="container">
+		<h1 class="text-center">
+			Reliable, efficient delivery<br>
+			<small>Powered by Technology</small>
+		</h1>
+		
+		<p class="text-center">
+			Our Artificial Intelligence powered tools use millions of project data points 
+			to ensure that your project is successful
+		</p>
+		
+		<div class="row">
+			<div class="col-sm-4 my-auto">
+				<div class="card">
+					<div class="card-title">Supervisor</div>
+					<div class="card-content">Monitors activity to identify project roadblocks</div>
+				</div>
+			</div>
+			
+			<div class="col-sm-4">
+				<div class="card">
+					<div class="card-title">Team Builder</div>
+					<div class="card-content">Scans our talent network to create the optimal team for your project</div>
+				</div>
+				
+				<div class="card">
+					<div class="card-title">Karma</div>
+					<div class="card-content">Regularly evaluates our talent to ensure quality</div>
+				</div>	
+			</div>
 
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
+			<div class="col-sm-4 my-auto">
+				<div class="card">
+					<div class="card-title">Calculator</div>
+					<div class="card-content">Uses data from past projects to provide better delivery estimates</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
 
-  Supervisor
-  Monitors activity to identify project roadblocks
 
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+	<script src="vendor/js/jquery-3.3.1.slim.min.js"></script>
+	<script src="vendor/js/popper.min.js"></script>
+	<script src="vendor/js/bootstrap.min.js"></script>
 </body>
 </html>
