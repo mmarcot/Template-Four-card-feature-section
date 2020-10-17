@@ -3,3 +3,39 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: hsl(0, 0%, 98%);
 }
+
+h1 {
+    font-weight: 200;
+}
+
+h1 small {
+    font-weight: 600;
+}
+
+.card-title {
+    font-weight: 600;
+}
+
+.card-content {
+    opacity: 0.5;
+}
+
+.intro {
+    opacity: 0.5;
+}
+
+.card.supervisor {
+    border-top: 4px solid hsl(180, 62%, 55%);
+}
+
+.card.team-builder {
+    border-top: 4px solid hsl(0, 78%, 62%);
+}
+
+.card.karma {
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+
+.card.calculator {
+    border-top: 4px solid hsl(212, 86%, 64%);
+}
